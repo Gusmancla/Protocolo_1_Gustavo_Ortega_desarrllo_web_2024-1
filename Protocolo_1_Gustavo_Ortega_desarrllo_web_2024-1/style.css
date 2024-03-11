@@ -9,3 +9,15 @@ h1,h2{
     color: olivedrab;
     margin-top: 10px;
 }
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+a{
+    margin: 0 5px 0 5px;
+}
