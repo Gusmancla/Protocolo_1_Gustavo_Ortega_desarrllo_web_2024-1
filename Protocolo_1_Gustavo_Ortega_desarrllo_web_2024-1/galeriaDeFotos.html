@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de fotos</title>
+</head>
+
+<body>
+
+    <head>
+        <h1>Galeria de fotos</h1>
+    </head>
+    <div class="item-galeria">
+        <div class="container-fotos">
+            <img src="img/img1.jpeg" alt="" width="300px">
+            <img src="img/img2.jpeg" alt="" width="300px">
+            <img src="img/img3.jpeg" alt="" width="300px">
+        </div>
+</body>
+<style>
+    body {
+        background-color: #6a6a6a;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    head {
+        text-align: center;
+    }
+
+    .item-galeria {
+        align-items: center;
+        margin: 10%;
+        padding: 0;
+        max-width: 980px;
+        display: flex;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 15px;
+        
+    }
+
+    .container-fotos,img {
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        display: flex;
+        padding: 10px;
+
+    }
+</style>
+
+</html>
